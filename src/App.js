@@ -1,5 +1,7 @@
 import './App.css'
 
+import HelloWorld from './components/HelloWorld'
+
 function App() {
   const name = 'leonardo'
   const newName = name.toUpperCase()
@@ -14,6 +16,7 @@ function App() {
       <p>Meu primeiro App!</p>
       <p>Olá, {newName}</p>
       <p>soma: {sum(1, 2)}</p>
+      <HelloWorld />
     </div>
   )
 }
